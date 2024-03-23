@@ -95,7 +95,7 @@ temp, не создавая новых каталогов. Просмотрит�
 
 ````  bash
  wget https://github.com/qwerty29544/BigDataEssentials/raw/main/Practice1_LinuxCommands/data.tar.gz -P temp
- tar -xzvf temp/data.tar.gz
+ tar xf temp/data.tar.gz
  cd data
  ls -l
 ````
